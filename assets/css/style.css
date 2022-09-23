@@ -31,12 +31,15 @@ header{
 }
 
 
+
 .nav-2 li{
     display: inline-block;
     list-style: none;
     margin-left: 15px;
-    
-}
+    margin-top: 6px;
+   }
+   
+
 
 H1 {
     font-size: 40px;
@@ -44,7 +47,7 @@ H1 {
 }
 
 .main-1 {
-width: 60%;
+width: 75%;
 margin: auto;
 margin-top: 50px;
 background-color: aqua;
@@ -69,3 +72,52 @@ height: 500px;
     background-color: rgb(255, 247, 0);
     height: 500px;
 }
+
+.big-container {
+    width: 65%;
+    margin: 0 auto;
+    background-color: red;
+    height: 1100px;
+    padding-top: 300px;
+    ;}
+
+.Titolo2 {
+    font-size: 50px;
+    text-align: left;
+}
+
+#Btn2 {
+    margin-left: 50px;
+}
+#Btn1 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.container-columns {
+width: 80%;
+margin: 0 auto;
+height: 500px;
+background-color: wheat;
+display: flex;
+justify-content:space-between
+;}
+
+.column1 {
+height: 500px;
+flex-basis: 25%;
+background-color: aliceblue;
+}
+.column2 {
+    height: 500px;
+    flex-basis: 25%;
+    background-color: rgb(169, 193, 213);
+    }
+
+.column3 {
+    height: 500px;
+    flex-basis: 25%;
+    background-color: rgb(151, 241, 236);
+    }
+
+
