@@ -263,8 +263,7 @@ display: flex;
 .columnbig1 {
 height: 400px;
 background-color: yellow;
-width: calc(100vw/3);
-}
+width: calc(100vw/3);}
 
 .columnbig2 {
     height: 400px;
@@ -275,5 +274,57 @@ width: calc(100vw/3);
     .columnbig3 {
         height: 400px;
         background-color: rgb(19, 83, 21);
-        width: calc(100vw/3);
+        width: calc(100vw/3);}
+
+
+
+.Blue-Box {
+background-color: rgb(0, 191, 255);
+width: 100%;
+height: 250px;
+margin: 0 auto;  }
+
+        
+.Questions {
+background-color: green;
+width: 65%;
+height: 250px;
+margin: 0 auto;
+}
+
+
+.Section-list {
+    background-color: rgb(92, 92, 92);
+    width: 70%;
+    height: 220px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.box1 {
+width: calc(70vw/5);
+background-color: aqua;
+height: 220px;}
+
+.box2 {
+    width: calc(70vw/5);
+    background-color: rgb(12, 59, 59);
+    height: 220px;}
+    
+    .box3 {
+        width: calc(70vw/5);
+        background-color: rgb(0, 106, 255);
+        height: 220px;
         }
+
+        .box4 {
+            width: calc(70vw/5);
+            background-color: rgb(12, 59, 59);
+            height: 220px;
+            }
+            .box5 {
+                width: calc(70vw/5);
+                background-color: rgb(0, 255, 229);
+                height: 220px;
+                }
+
