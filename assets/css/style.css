@@ -8,7 +8,7 @@
 
 header{
     background-color: white;
-    padding: 20px;
+    padding: 25px;
 }
 
 
@@ -39,46 +39,80 @@ header{
     margin-top: 6px;
    }
    
-
-
-H1 {
-    font-size: 40px;
-    text-align: left;
+.btn-white {
+margin-left: 30px;
+border: none
 }
 
+.btn-blue2 {
+background-color:rgb(0, 106, 255);
+color: white;
+padding: 5px;
+border: none;
+margin-left: 10px;
+}
+
+/* <!-- Start Main --> */
 .main-1 {
-width: 75%;
-margin: auto;
-margin-top: 50px;
-background-color: aqua;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(93, 254, 233);
+    }
+
+.titolo-1 {
+    font-size: 70px;
+    text-align: left;
+    margin-left: 310px;
+
 }
+
+.btn-blue3 {
+    background-color:rgb(0, 106, 255);
+    color: white;
+    padding: 8px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    
+
 
 .container {
-background-color: blue;
 margin: auto;
-width: 100%;
+width: 85%;
 height: 300px; 
 display: flex;
+margin-top: 50px;
 }
 
 .box-text {
 width: 30%;
-background-color: green;
-height: 500px;
+font-size: 17px;
+margin-left: 200px;
 }
 
+.fa-solid {
+margin-top: 40px;
+font-size: 50px;
+}
 .box-pic {
     width: 70%;
-    background-color: rgb(255, 247, 0);
-    height: 500px;
+    height: 400px;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
 }
+
+/* <!-- Start Columns --> */
 
 .big-container {
     width: 65%;
     margin: 0 auto;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     height: 1100px;
-    padding-top: 300px;
+    padding-top: 220px;
     ;}
 
 .Titolo2 {
@@ -98,82 +132,183 @@ height: 500px;
 width: 80%;
 margin: 0 auto;
 height: 500px;
-background-color: wheat;
+background-color: rgb(255, 255, 255);
 display: flex;
 justify-content:space-between;
 ;}
 
 .column1 {
-height: 500px;
+height: 600px;
 flex-basis: 25%;
-background-color: aliceblue;
+border: 1px solid black;
+text-align: left;
 }
+
+.content-column1 {
+margin-left: 7px;
+font-size: 13px;
+
+}
+
+.method {
+margin-top: 10px;
+margin-bottom: 10px;}
+
+.italic {
+    font-style: italic;
+    margin-top: 10px;
+    ;
+}
+
+.fa-user {
+    font-size: 15px;
+    margin-top: 20px;
+}
+.fa-folder {
+    font-size: 15px;
+    margin-top: 20px;
+}
+.fa-share-nodes {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.fa-check {
+    color: blueviolet;
+    font-size: 15px;
+    margin-top: 5px;
+    }
+    
+    .fa-users {
+        font-size: 15px;
+        margin-top: 20px;}
+.btn-blue4 {
+    background-color:rgb(0, 106, 255);
+    color: white;
+    padding: 8px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    }
+.small-section {
+text-align: center;
+}
+
+
 .column2 {
-    height: 500px;
+    height: 600px;
     flex-basis: 25%;
-    background-color: rgb(169, 193, 213);
+    border: 1px solid black;
+    text-align: left;
     }
 
+
 .column3 {
-    height: 500px;
-    flex-basis: 25%;
-    background-color: rgb(151, 241, 236);
-    }
+        height: 600px;
+        flex-basis: 25%;
+        border: 1px solid black;
+        text-align: left; }
+
+
+ /* <!-- start mini container --> */
 
 .mini-container {
     width: 65%;
     margin: 0 auto;
-    background-color: rgb(243, 165, 18);
     display: flex;
     justify-content: space-between
     ;}
 
 .team {
-    background-color: yellow;
     width: 65%;
     height: 40px;
     text-align: center;
     margin: 0 auto;
-}
+    border: 1px solid black;
+    padding: 10px;
+    border-bottom: none;
 
+}
+.fa-house {
+    font-size: 15px;
+    margin-top: 4px;
+}
 .text-left {
-    background-color: aqua;
     flex-basis: 60%;
     height: 200px;
+    border: 1px solid black;
+    border-right: none;
+    line-height: 30px;
+}
+.enterprise {
+margin-left: 25px;
+margin-top: 10px;
 }
 
+
 .contact {
-    background-color: rgb(0, 250, 83);
     flex-basis: 40%;
+    background-color: white;
+    border: 1px solid black;
+    border-left: none;
 }
-.main-1 {
-    width: 65%;
-    margin: auto;
-    margin-top: 50px;
-    background-color: aqua;
+
+.btn-blue5 {
+    background-color:rgb(0, 106, 255);
+    color: white;
+    padding: 8px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
     }
-    
+
+
+    /* end mini container */
     .container2 {
-    background-color: blue;
     margin: auto;
     width: 100%;
     height: 500px; 
     display: flex;
     }
-    
+
+    .main-2 {
+        width: 65%;
+        margin: auto;
+        margin-top: 50px;
+        }
+
     .box-text2 {
     width: 30%;
-    background-color: green;
-    height: 250px;
     margin-top: 100px;
     margin-left: 20px;
     margin-right: 20px;
+    line-height: 20px;
     }
+
+.Partn {
+font-size: 27px;
+line-height: 30px;
+}
+
+
+    .btn-white6 {
+        background-color:rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: 8px;
+        border: 1px solid black;
+        margin-top: 30px;
+        }
     .box-pic2 {
-        width: 70%;
-        background-color: rgb(255, 247, 0);
-        height: 500px;
-    }
+        width: 60%;
+        height: 520px;
+        background-image:url(../img/partner.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }a
+/* start <!-- sections with text and pics --> */
 
     .Esegui-Diagnosi {
     width: 65%;
