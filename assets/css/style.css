@@ -307,17 +307,21 @@ line-height: 30px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-    }a
-/* start <!-- sections with text and pics --> */
+    }
 
     .Esegui-Diagnosi {
     width: 65%;
-    background-color: rgb(24, 208, 24);
+    background-color: #ffffff;
     height: 40px;
     text-align: center;
     margin: 0 auto;
     margin-top: 50px;
     }
+
+.Esegui-Diagnosi h3 {
+    text-align: left;
+    font-size: 33px;
+}
 
   .text-pics {
     background-color: aqua;
